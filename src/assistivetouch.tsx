@@ -29,7 +29,9 @@ export class AssistiveTouch extends React.Component<AssistiveTouchProps, Assisti
 			position: this.props.initialPos,
 			isOpen: false
 		});
-		window.addEventListener("resize", () => this.snapToSide(this.lastMousePosition));
+		if (typeof window !== 'undefined') {
+			window.addEventListener("resize", () => this.snapToSide(this.lastMousePosition));
+		}
 	}
 
 	componentWillUnmount() {

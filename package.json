@@ -1,15 +1,12 @@
 {
-  "name": "@abhishekkhandait/react-assistivetouch-menu",
-  "version": "0.0.3",
-  "description": "iOS inspired assistive touch menu built with React",
+  "name": "w-react-assistivetouch-menu",
+  "version": "0.0.1",
+  "description": "update peerDependencies to react 17 and resolve window undefined in nextjs",
   "main": "dist/index.js",
-  "author": "Abhishek Khandait",
   "license": "MIT",
   "private": false,
   "types": "dist/index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+
   "scripts": {
     "prepublish": "yarn build",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,12 +22,8 @@
     "menu"
   ],
   "peerDependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/abhishekkhandait/react-assistivetouch-menu.git"
+    "react": "^16.8.6 || ^17.0.2",
+    "react-dom": "^16.8.6 || ^17.0.2"
   },
   "devDependencies": {
     "@types/react": "^16.9.32",
@@ -46,7 +39,7 @@
     "webpack-dev-server": "^3.7.1"
   },
   "bugs": {
-    "url": "https://github.com/abhishekkhandait/react-assistivetouch-menu/issues"
+    "url": "https://github.com/akirawinz/react-assistivetouch-menu"
   },
-  "dependencies": {}
+  "homepage": "https://github.com/akirawinz/react-assistivetouch-menuu#readme"
 }

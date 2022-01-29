@@ -29,7 +29,7 @@ or
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom";
-import { AssistiveTouch } from "react-assistivetouch-menu";
+import { AssistiveTouch } from "w-react-assistivetouch-menu";
 
 function getMenuItems() {
   return [{
@@ -74,7 +74,8 @@ ReactDOM.render(<App />, rootElement);
 
 
 ## Development
-
+ this is folk from https://abhishekkhandait.github.io/react-assistivetouch-menu/ 
+ for update peer dependencies 
 ### Build
 1. `yarn`
 2. `yarn build`
